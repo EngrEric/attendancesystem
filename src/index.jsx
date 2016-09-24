@@ -5,7 +5,6 @@ import React from 'react';
 import {render} from 'react-dom';
 import BigCalendar from 'react-big-calendar';
 import moment from 'moment';
-import events from './events';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TimePicker from 'material-ui/TimePicker';
 import Dialog from 'material-ui/Dialog';
@@ -121,7 +120,7 @@ class Main extends React.Component {
   else hide TimePicker
   */
   handlePresentChange(event, index, value){
-    console.log("handlePresentChange called");
+    // console.log("handlePresentChange called");
     var self= this;
     if(value==1){
       var timearray=[];
@@ -152,7 +151,7 @@ class Main extends React.Component {
       <FlatButton
         label="Cancel"
         primary={true}
-        onTouchTap={() => this.timeClose()}
+        onTouchTap={() => this.setState({open:false})}
       />,
       <FlatButton
         label="Submit"

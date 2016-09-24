@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # reactboilerplate
 The most basic boiler plate for react apps  
 1)Simply git clone https://github.com/smhatre59/reactboilerplate.git    
@@ -104,3 +105,6 @@ Check out it usage at [live-reload](https://www.npmjs.com/package/live-reload)
 Check out its usage at [http-server](https://www.npmjs.com/package/http-server)   
 
 ###Check out my work at:[Saurabh Mhatre](https://smhatre59.github.io/)###
+=======
+# attendancesystem
+>>>>>>> 7f35fee1d8ab10221c239f63054e98ec3b88bf40
